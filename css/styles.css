@@ -37,3 +37,9 @@ address{
     margin:0px;
     color:#0f0f0f;
 }
+
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
