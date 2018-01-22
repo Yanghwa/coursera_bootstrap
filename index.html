@@ -34,8 +34,9 @@
                         <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                     </ul>
                     <span class="navbar-text">
-                        <a data-toggle="modal" data-target="#loginModal">
-                        <span class="fa fa-sign-in"></span> Login</a>
+                        <a id="showLogin">
+                            <span class="fa fa-sign-in"></span> Login
+                        </a>
                     </span>
                 </div>
             </div>
@@ -288,8 +289,7 @@
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
                     <!-- <a data-toggle="modal" data-target="#reserveModal"><span class="fa fa-sign-in"></span>Reserve Table</a> -->
-                    <a type="button" class="btn btn-warning btn-sm btn-block" data-target="#reserveModal"
-                    data-toggle="modal" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
+                    <a type="button" class="btn btn-warning btn-sm btn-block" id='showReserve' title="Or Call us at  <br><strong>+852 12345678</strong>"
                      data-placement="bottom">Reserve Table</a>
                 </div>
             </div>

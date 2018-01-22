@@ -1,3 +1,14 @@
+$(document).ready(function(){
+    $("#showLogin").click(function(){
+        $('#loginModal').modal('show');
+    });
+
+    $("#showReserve").click(function(){
+        $('#reserveModal').modal('show');
+    });
+});
+
+
 $("#carousel-button").click(function () {
     if ($("#carousel-button").children("span").hasClass('fa-pause')) {
         $("#mycarousel").carousel('pause');
